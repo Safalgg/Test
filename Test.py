@@ -572,8 +572,8 @@ def menu():
                                     plist.append('first1234@')
                                     plist.append('last123@')
                                     plist.append('last1234@')
-		                    plist.append('first$$')
-				    plist.append('last$$')
+		                    plist.append('first123')
+				    plist.append('last123')
                                 else:
                                     try:
                                         ps_limit = int(input(' \033[1;37m[\u001b[36m•\033[1;37m] SET PASSWORD LIMIT : '))

